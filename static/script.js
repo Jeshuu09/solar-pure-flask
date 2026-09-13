@@ -1,0 +1,1 @@
+function validateForm(){const phone=document.getElementById('phone');if(phone){const value=phone.value.trim();if(!/^[0-9+\-\s()]{7,18}$/.test(value)){alert('Please enter a valid phone number.');phone.focus();return false;}}return true;}
