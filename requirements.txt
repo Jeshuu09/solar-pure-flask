@@ -2,3 +2,4 @@ Flask
 python-dotenv
 Werkzeug
 gunicorn
+pwdlib[argon2]
